@@ -1,13 +1,40 @@
-.Contenedor{
- text-align: center;
- font-size: 45px;
- padding: 10cm;
- margin-left: 10cm;
- margin-bottom: 10cm;
- margin-right: 10cm;
- margin-top: 10cm;
- 
+.c1{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
 
 
+.c2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease;
+    font-size: 50px;
+
+}
+.fondo {
+    font-size:50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-decoration-thickness: 2px;
+    text-decoration-color: black;
+    text-decoration-line: dotted;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    background-color: #FFFFFF;
+    background-color: #0c80f4;
 
 }
