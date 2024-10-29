@@ -6,45 +6,38 @@
   <head>
     <title>Happy House</title>
     <link rel="stylesheet" href="./Style.css" />
-    
+    <script>
+      function irAArchivo() {
+          window.location.href = 'LogIn.html'; // Cambia 'archivo.html' por tu archivo destino
+      }
+  </script>
   </head>
-  <body class="atras">
-      
+  <body>
+  <header>
+    <div class="logo">
+      <img src="Assets/Happy House.png" alt="Logo Happy House">
     </div>
-    <!-- Imagen de Fondo -->
-    <div >
-      <h1 class="fondo">Happy House</h1>
-      <a>Sabemos que iniciar un hogar no es sencillo, tranquilo estamos para ayudarte</a>
+    <div class="hdr">
+      <button class="btn">Inicio</button>
+      <button class="btn">Registrate
+      </button>
+      <button class="btn">Nosotros</button>
+      <button onclick="irAArchivo()" class="btn">Iniciar Sesión</button>
     </div>
-    
-    <div>
-      
-      <form action="/Consejos.html" method="get" for="consejos">
-        <label for="Consejos">
-          <button for="consejos" value="Consejos" class="btn" id="consejos">
-          <div>
-            <a>Consejos</a>
-            </div>
-        </label>
-      </form>
-      <button class="btn"> Button
-      <button class="btn"> Button
-    </div>
-    <div class="c1">
-    <p>Aquí encontrarás consejos para mantener un hogar feliz</p>
-    <!------Botón-->
-    </div>
-    <form action="/Consejos.html" method="get" for="consejos">
-      <label for="Consejos">
-        <button for="consejos" value="Consejos" class="card" id="consejos">
-        <div>
-          <a>Productos 
-          <br>
-          que
-          <br>
-          recomendamos</a>
-          </div>
-      </label>
-    </form>
+  </header>
+
+  <div class="card shadow">
+    <h1 class="Titulo inicio">Quienes somos?</h1>
+    <p class="PInicio">Happy House es una iniciativa para apoyar a las personas a crear su primer hogar</p>
+    <p class="PInicio">Aquí encontrarás consejos para mantener tu hogar, lugares donde pagar tus servicios, un directorio de especialistas del hogar, además de productos recomendados</p>
+  </div>
+  <div class="videon">
+    <video width="1100" autoplay loop muted>
+      <source src="Assets/Modern House Stock Footage - Modern House Free Stock Videos - Modern House No Copyright Videos.mp4" type="video/mp4">
+    </video>
+  </div>
+ 
+  
+   
   </body>
   </html>
